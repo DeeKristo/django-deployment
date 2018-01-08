@@ -28,7 +28,7 @@ SECRET_KEY = '=erswccfn@f2(vr(g_d(4#s^+u+c+w@_m8c3d+_svh*x)0vc2%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dee-krist0.herokuapp.com',]
 
 
 # Application definition
