@@ -1,0 +1,14 @@
+argon2-cffi==16.3.0
+bcrypt==3.1.4
+certifi==2017.11.5
+cffi==1.11.2
+Django==1.11.8
+Faker==0.8.8
+gunicorn==19.7.1
+Pillow==5.0.0
+pycparser==2.18
+python-dateutil==2.6.1
+pytz==2017.3
+six==1.11.0
+text-unidecode==1.1
+wincertstore==0.2
