@@ -128,3 +128,7 @@ STATICFILES_DIRS = [STATIC_DIR,]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
