@@ -1,0 +1,19 @@
+{% extends 'calc_fibonacci/index.html' %}
+{% block content %}
+
+<div class="container">
+  <p>
+    <div class ="container">
+        <div class="form-group">
+    <label for="output"><b>Output</b></label>
+    <textarea class="form-control" id="output" rows="4" cols="50" readonly>{{ output }}</textarea>
+    <div class="form-group">
+  <label for="time"><b>Time</b></label>
+    <div class ="panel-body" id="time">{{ time }} seconds</div>
+  </div>
+</div>
+        </div>
+      </p>
+
+      </div>
+{% endblock %}
