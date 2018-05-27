@@ -12,4 +12,5 @@ def result(request):
         start_time = time.time()
         output = mat_mul(mat_power(A,input-1),v)[0]
         total_time = time.time()-start_time
+        total_time = '{:.20f}'.format(total_time)
     return render(request,'calc_fibonacci/results.html',{'output':output,'time':total_time})
